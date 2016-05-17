@@ -7,7 +7,7 @@ This project was solely made so people can test the strength of the password the
 
 In this repo, I will keep it updated with the current source code to the website, I currently am re-working the entire website. 
 
-We currently have a trello of the ideas we  plan of either adding in this update or a future update. You can view it [here](https://trello.com/b/nWk64vpZ/hsimp).
+We currently have a trello of the ideas we plan to either adding in this update or a future update. You can view it [here](https://trello.com/b/nWk64vpZ/hsimp).
 
 #### Feature Request? 
 
