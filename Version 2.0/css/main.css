@@ -1,3 +1,20 @@
+/***
+*
+* Title: Main CSS 
+* Author: Francis Baker 
+*
+* All rights reserved to Francis Baker. 
+* This repo can be found: https://github.com/Baker/HSIMP
+* 
+***/
+
+
+/* Materialize CSS */
+.z-depth-1 {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
 @font-face {
   font-family: 'SFR';
   src: url(/fonts/sf_regular.ttf) format('truetype');
