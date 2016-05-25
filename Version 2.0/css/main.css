@@ -14,42 +14,6 @@
    padding-left: 15px;
    padding-right: 15px;
 }
-
-@font-face {
-  font-family: 'SFR';
-  src: url(/fonts/sf_regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'SFT';
-  src: url(/fonts/sf_thin.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'SFM';
-  src: url(/fonts/sf_medium.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'SFB';
-  src: url(/fonts/sf_bold.ttf) format('truetype');
-}
-
-h1, h2, h3, h4, h5, h6, .navbar-brand {
-    font-family: 'SFB';
-}
-body {
-    font-family: 'Open Sans';
-    font-size: 17px;
-    line-height: 28px;
-    font-weight: 400;
-}
-iframe {
-    margin: 0 auto;
-    background-color: #777;
-    text-align: center;
-    
-}
 .github-commit {
     padding:14px 0;
     height:64px;
@@ -59,62 +23,8 @@ iframe {
     font-size:.9rem
 }
 
-.post-header {
-  width: 100%;
-  height: 500px;
-  display: block;
-  background-size: cover;
-}
-
-.post-header .title {
-  padding: 200px 100px 100px 100px;
-  color: white;
-}
-
-.post-header h1 {
-  font-size: 80px;
-  line-height: 94px;
-}
-
-.post-header .shadow {
-  background-color: rgba(0,0,0,0.5);
-}
-
 .title-content-offset {
   margin-top: 30px;
-}
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  float: left;
-  margin-right: 15px;
-}
-
-footer {
-	margin-top: 40px;
-	margin-bottom: 30px;
-	border-top: 1px solid #e7e7e7;
-}
-
-.footer-content {
-	margin-top: 30px;
-}
-
-.navbar-transparent {
-  background-color: rgba(0,0,0,0.5);
-  border-bottom: none;
-}
-
-.navbar-transparent .navbar-brand,
-.navbar-transparent .nav > li > a {
-  color: white;
-}
-
-.navbar-transparent .nav > li > a:hover,
-.navbar-transparent .nav > li > a:focus {
-  background-color: rgba(255,255,255,0.3);
 }
 
 /* Bootstrap hacks for CSP */
