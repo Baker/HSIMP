@@ -14,6 +14,15 @@
    padding-left: 15px;
    padding-right: 15px;
 }
+
+
+/* Main content */
+body {
+    padding-left: 25px;
+}
+.intro h1 {
+    font-size: 16px;
+}
 .github-commit {
     padding:14px 0;
     height:64px;
