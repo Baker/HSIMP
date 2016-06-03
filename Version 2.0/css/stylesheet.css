@@ -19,6 +19,8 @@ h1 {
 }
 
 .intro {
+    color: #777;
 }
+.intro hr {
     width: 25%;
 }
