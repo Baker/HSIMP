@@ -15,7 +15,7 @@ body {
 h1 {
     font-size: 22px;
     color: #fff;
-    align-content: center;
+    text-align: center;
 }
 
 .intro {
@@ -24,7 +24,18 @@ h1 {
 .intro hr {
     width: 25%;
 }
-
+#warning {
+    color: red;
+    font-weight: 700;
+    text-align: center!important;
+}
+#password-label {
+    font-size: 14px;
+}
+#password {
+    width: 40%;
+    color: white;
+}
 .footer {
     color: #777;
 }

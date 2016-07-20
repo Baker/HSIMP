@@ -13,22 +13,21 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col sm12">
                     <div class="intro">
                         <h1>How Strong Is Your Password?</h1>
                         <hr>
-                        <p><em>This project is solely only for educational purposes, We do not keep nor store your passwords.</em></p>
+                        <p><em id="warning">This project is solely only for educational purposes, We do not keep nor store your passwords. This project is still overgoing heavy reconstruction, so please bare with me.</em></p>
                         <p>This project was created to allow people test the strength of there passwords, we use a list of "ban passwords" that will auto-bring your password to 0% this is a indicator, that your password is either leaked, or commonly used word. The auto 0% also means you have repeted character which we do not recommend.</p>
-                        <p> Ancillae voluptua percipitur cum no, soleat dissentiet at eam, vis an aperiam petentium. Error praesent ius cu, ut eum nonumy vidisse facilisi. Ea mei impedit admodum alienum, error sanctus impedit nec et. Ad quo scaevola pericula complectitur. Nec fabulas placerat consetetur te, tale appellantur deterruisset duo at.</p>
                         <div class="github-commit">
                               <div class="container">
                                 <div class="commit">
                                   Latest Commit on Github:
                                   &nbsp;&nbsp;
-                                  <a href="" class="sha"></a>
+                                  <a href="" target="_blank" class="sha"></a>
                                   &nbsp;&nbsp;
                                   <span class="date"></span>
-                                  <a id="github-button" href="https://github.com/Baker/HSIMP" class="btn-flat right grey-text text-lighten-5 waves-effect waves-light hide-on-small-only">Github</a>
+                                  <a id="github-button" target="_blank" href="https://github.com/Baker/HSIMP" class="btn-flat right grey-text text-lighten-5 waves-effect waves-light hide-on-small-only">Github</a>
                                 </div>
                               </div>
                             </div>
@@ -36,17 +35,17 @@
                         </div>
                      </div>
              <div class="row">
-                  <div class="col-md-6 col-sm-12">
+                  <div class="">
                     <div id="complexify">
                         <div classs="form">
-                            <div class="form-group">
-                                <label for="password">Password</label> 
+                            <div class="col s10 form-group">
+                                <label id="password-label" for="password">Password</label> 
                                 <input class="form-control" id="password" type="password" />
-                            </div>               
+                            </div>
+                            <h1 class="col s2 pull-right" id="complexity">0%</h1>
+                            <br>
                         </div>
-                            <br>
-                            <h1 class="pull-right" id="complexity">0%</h1>
-                            <br>
+                            
                         </div>
                     </div>
                 </div>
@@ -65,7 +64,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col s12">
                     <div class="footer">
                         <p style="float:left">This website was developed with ❤ by <a target="_blank" href="//fpb.im">Francis Baker</a>.<p>
                         <p style="float:right">Found a bug or have a suggestion? <a href="mailto:hi@fpb.im">Email me</a>.</p>
